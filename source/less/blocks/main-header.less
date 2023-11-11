@@ -32,15 +32,23 @@
   color: #FFFFFF;
 }
 
-.main-header__item {
+.main-header-Items {
+  background-image: url('../img/png/interior.svg.png');
+  background-repeat: no-repeat;
+  background-position: center right;
   background-color: #63D1BB;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url('../img/png/interior.svg@2x.png');
+    background-size: auto 62px;
+  }  
 }
 
-.main-header__item-color {
+.main-header--color {
   background-color: #56C3B2;
-}
+} 
 
-.main-header__text-Items {
+.main-header__text {
   min-width: 160px;
   max-width: 440px;
   margin: 0;
@@ -50,14 +58,6 @@
   padding-top: 24px;
   padding-bottom: 31px;
   padding-right: 90px;
-  background-image: url('../img/png/interior.svg.png');
-  background-repeat: no-repeat;
-  background-position: center right;
-
-  @media (min-resolution: 2dppx) {
-    background-image: url('../img/png/interior.svg@2x.png');
-    background-size: auto 62px;
-  }
 }
 
 .main-header__text {
